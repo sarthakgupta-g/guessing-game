@@ -8,6 +8,7 @@ while not correct:
   guess=int(input("enter your guess"))
   if(guess==number):
     correct=True
+    print("Correct! You win!")
   elif(guess>number):
     print("guess too high")
   else:
